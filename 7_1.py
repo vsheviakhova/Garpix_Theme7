@@ -4,5 +4,3 @@ def read_poem(path):
         while counter < 6:
             print(file.readline().rstrip())
             counter += 1
-
-read_poem('polozkova.txt')
